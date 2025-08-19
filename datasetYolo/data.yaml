@@ -1,0 +1,5 @@
+train: D:/plants-app/fruit-classify-quality-detector/datasetYolo/train/images
+val: D:/plants-app/fruit-classify-quality-detector/datasetYolo/valid/images
+
+nc: 10
+names: ["Apple", "Banana", "Grapes", "Guava", "Mango", "Orange", "Papaya", "Pomegranate", "Strawberries", "Watermelon"]
