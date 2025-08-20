@@ -162,7 +162,7 @@ def predict_and_explain(image_path, classifier_model, yolo_model):
 if __name__ == "__main__":
     test_image_path = os.path.join(Config.TEST_IMAGES_DIR, "test3.jpg")  # Change to your test image path
     classifier_model = tf.keras.models.load_model(os.path.join(Config.MODEL_SAVE_PATH, "model_final.keras"))
-    yolo_model = YOLO("runs/detect/train2/weights/best.pt")
+    yolo_model = YOLO("runs/detect/train3/weights/best.pt")
 
     print("Models loaded.")
     print(f"Processing: {test_image_path}")

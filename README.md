@@ -73,7 +73,7 @@ FRUIT-CLASSIFY-QUALITY-DETECTOR/
 
 1. **Clone the repository**
 ```bash
-git clone #ADD URL HERE FOR THE GITHUB LINK OF REPOSITORY
+git clone https://github.com/Ahmed-ali0005/fruit-classify-quality-detector.git
 cd fruit-classify-quality-detector
 ```
 
